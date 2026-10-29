@@ -55,6 +55,8 @@ try:
         }])
 
         prediction = model.predict(input_data)[0]
+        st.write("Prediction value:", prediction)
+        st.write("Input data:", input_data)
 
         st.subheader("Prediction Result")
 
